@@ -1,5 +1,6 @@
-import { admin } from "./variables"
+import { IAdmin } from "../../models/Admin"
 
+let admin: IAdmin = {name: "rauuuuuuul"};
 
 function Presentation() {
     return (

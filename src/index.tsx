@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Rotas from './rotas';
 import { BrowserRouter } from 'react-router-dom';
 
 import "./global.css";
+import Home from './pages/home';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Rotas />
+      <Home/>
     </BrowserRouter>
   </React.StrictMode>
 );
